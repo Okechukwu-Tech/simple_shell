@@ -11,10 +11,12 @@
 #include <limits.h>
 #include <fcntl.h>
 #include <errno.h>
+
 /* for read/write buffers */
 #define READ_BUF_SIZE 1024
 #define WRITE_BUF_SIZE 1024
 #define BUF_FLUSH -1
+
 /* for command chaining */
 #define CMD_NORM	0
 #define CMD_OR		1
